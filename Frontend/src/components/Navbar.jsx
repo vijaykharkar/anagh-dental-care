@@ -71,15 +71,15 @@ export default function Navbar() {
 
       {/* ── Main nav ── */}
       <nav className={`bg-white/95 backdrop-blur-sm border-b border-slate-100 transition-all duration-300 ${scrolled ? "shadow-sm" : ""}`}>
-        <div className="flex items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[62px]">
+        <div className="flex items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[80px]">
 
           {/* Floating circular logo */}
           <Link
             to="/"
             aria-label={siteConfig.brandName}
-            className="relative -top-[18px] z-20 shrink-0 mr-3"
+            className="relative top-[15px] z-20 shrink-0 mr-3"
           >
-            <div className="w-[76px] h-[76px] rounded-full border-[3px] border-white shadow-xl overflow-hidden bg-white ring-2 ring-primary/15">
+            <div className="w-[120px] h-[120px] rounded-full border-[3px] border-white shadow-xl overflow-hidden bg-white ring-2 ring-primary/15">
               <img
                 src={logoImg}
                 alt={siteConfig.brandName}

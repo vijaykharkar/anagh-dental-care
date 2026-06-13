@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import logoImg from "../assets/logo.jpeg";
-import logoVideo from "../assets/logo_animation.mp4";
+import logoVideo from "../assets/logoanimation.mp4";
 import { siteConfig } from "../data/siteConfig";
 
 const SESSION_KEY = "anagh_splash_shown";

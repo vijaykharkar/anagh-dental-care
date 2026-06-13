@@ -1,7 +1,7 @@
-import clinicHero1 from "../assets/clinicpic_five.jpeg";
+import clinicHero1 from "../assets/clinicpicfive.jpeg";
 import clinicHero2 from "../assets/clinic.jpeg";
 import clinicHero3 from "../assets/drsagarpicinterance.jpeg";
-import clinicHero4 from "../assets/clinicpic_six.jpeg";
+import clinicHero4 from "../assets/clinicpicsix.jpeg";
 
 export const featuredServices = [
   {

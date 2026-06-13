@@ -5,16 +5,16 @@ import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import { siteConfig } from "../data/siteConfig";
 
 import drSagarImg from "../assets/drsagar.jpeg";
-import drSagarClinicImg from "../assets/drsagar_clinic_pic.jpeg";
+import drSagarClinicImg from "../assets/drsagarclinicpic.jpeg";
 import drSagarEntranceImg from "../assets/drsagarpicinterance.jpeg";
 import clinicMainImg from "../assets/clinic.jpeg";
 import clinicPicImg from "../assets/clinicpic.jpeg";
-import clinicPicOneImg from "../assets/clincipic_one.jpeg";
-import clinicPicTwoImg from "../assets/clinic_pic_two.jpeg";
-import clinicPicFourImg from "../assets/clinicpic_four.jpeg";
-import clinicPicFiveImg from "../assets/clinicpic_five.jpeg";
-import clinicPicSixImg from "../assets/clinicpic_six.jpeg";
-import clinicPicSevenImg from "../assets/clinicpic_seven.jpeg";
+import clinicPicOneImg from "../assets/clincipicone.jpeg";
+import clinicPicTwoImg from "../assets/clinicpictwo.jpeg";
+import clinicPicFourImg from "../assets/clinicpicfour.jpeg";
+import clinicPicFiveImg from "../assets/clinicpicfive.jpeg";
+import clinicPicSixImg from "../assets/clinicpicsix.jpeg";
+import clinicPicSevenImg from "../assets/clinicpicseven.jpeg";
 import clinicalChairImg from "../assets/clinicalchair.jpeg";
 import clinicalSeatImg from "../assets/clinicalseat.jpeg";
 
