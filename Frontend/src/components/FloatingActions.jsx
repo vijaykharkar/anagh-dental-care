@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { siteConfig } from "../data/siteConfig";
 
 export default function FloatingActions() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -16,18 +17,15 @@ export default function FloatingActions() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const whatsappNumber = "919876543210";
-
   const whatsappMessage = encodeURIComponent(
     "Hi, I'd like to book an appointment at Anagh Dental Care."
   );
 
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${whatsappMessage}`;
 
-  const directionsUrl =
-    "https://www.google.com/maps/search/Anagh+Dental+Care";
+  const directionsUrl = siteConfig.mapsUrl;
 
-  const phoneNumber = "tel:+919876543210";
+  const phoneNumber = `tel:${siteConfig.phoneRaw}`;
 
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col items-center gap-3">

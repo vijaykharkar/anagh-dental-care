@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import clinicalChairImg from "../assets/clinicalchair.jpeg";
 import { fadeInLeft, fadeInRight, staggerContainer, staggerItem } from "../utils/animations";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import { whyChooseUs } from "../data/whyChooseUs";
@@ -21,8 +22,8 @@ export default function WhyChooseUs() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhVNaPOIIWeFMSYKl_71iD7Cz9Z0awylxMgrMQX5ov51cwPoVTz1oJycArAUP-loghTgPXRvoQzkbAc88OA4J8K-ZmRzeaGp4usZySdCpIPsdhBOKWD2lvHKYEv56UKUI19voO6vg16uS1Ucmzn8_XsEMmYa0jo0ndvETWXCJtBBhBrxhO7ruRYcGNnPGPjGHaN4i-27r0L-s8kVy4tVc0oA3RmIJKh8PqJT7FpV13FGsDrt1xjen8e5sJIKzWLyWB6ei3XbMNznQL"
-                alt="Professional dentist using advanced dental technology"
+                src={clinicalChairImg}
+                alt="Anagh Dental Care modern dental chair and equipment"
                 className="w-full aspect-[4/5] object-cover"
                 loading="lazy"
               />
@@ -32,7 +33,7 @@ export default function WhyChooseUs() {
                   absolute patient comfort.&rdquo;
                 </p>
                 <p className="text-xs font-medium text-on-surface-variant mt-4">
-                  — Dr. Anagh, Chief Surgeon
+                  — Dr. Sagar, Chief Surgeon
                 </p>
               </div>
             </div>

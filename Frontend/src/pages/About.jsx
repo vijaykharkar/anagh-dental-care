@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
+import clinicEntranceImg from "../assets/drsagarpicinterance.jpeg";
+import clinicSeatImg from "../assets/clinicalseat.jpeg";
 import {
   pageTransition,
   fadeInUp,
@@ -29,7 +32,7 @@ function LegacySection() {
             className="relative rounded-xl overflow-hidden shadow-md"
           >
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXnyOGc87blFRvbURL6HbzbxZD3mHHYJfHlbqcQOa3fB8cACtu1QyyzyyEH82KLofa2H9zXJdwfS4iPLGrF_ewdiJfkGbdSpqWjYGAAmlw-EfIUber4wJO9l9PfwGpm4FNs2H_2BChMLKfz2MQylaRIaJm-3DuHp-OhHBTqccwqDtSCbGz8xs6jSNv8chxyeCpYthtN9zIKE5Gs8M-AItjlZm25DIi1NpwDKJMttt1q2S9BpQjNNx0oVNZZ1mgI84txI3FK8F1jJUg"
+              src={clinicEntranceImg}
               alt="Anagh Dental Care Clinic Entrance"
               className="w-full h-[400px] lg:h-[500px] object-cover"
               loading="lazy"
@@ -181,7 +184,7 @@ function DoctorSection() {
               {...buttonHover}
               className="mt-4 bg-primary-container text-white px-8 py-3.5 rounded-xl text-sm font-semibold tracking-wide hover:shadow-lg transition-all cursor-pointer"
             >
-              Book a Consultation with Dr. Anagh
+              Book a Consultation with Dr. Sagar
             </motion.button>
           </Link>
         </motion.div>
@@ -300,7 +303,13 @@ export default function About() {
 
   return (
     <motion.div {...pageTransition}>
-      <section className="pt-28 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+      <SEO
+        title="About Us – Dr. Sagar & Anagh Dental Care"
+        description="Learn about Anagh Dental Care – a modern dental clinic in Kiwale, Pimpri-Chinchwad led by Dr. Sagar. Committed to pain-free, high-quality dental care for the whole family."
+        keywords="about Anagh Dental Care, Dr Sagar dentist Pimpri-Chinchwad, dental clinic about us, Kiwale dentist, dental team Pune"
+        canonical="/about"
+      />
+      <section className="pt-10 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
         <motion.div
           ref={ref}
           variants={fadeInUp}

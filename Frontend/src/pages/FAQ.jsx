@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
 import { Link } from "react-router-dom";
 import {
   pageTransition,
@@ -35,7 +36,13 @@ export default function FAQ() {
 
   return (
     <motion.div {...pageTransition}>
-      <section className="pt-28 pb-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+      <SEO
+        title="FAQs – Common Dental Questions Answered"
+        description="Get answers to frequently asked dental questions at Anagh Dental Care. Learn about dental implants, root canal, braces, teeth whitening, costs & appointments in Kiwale, Pimpri-Chinchwad."
+        keywords="dental FAQ, dental implant questions, root canal FAQ, braces cost Pune, teeth whitening FAQ, dental clinic FAQ Kiwale, dentist questions Pimpri-Chinchwad"
+        canonical="/faq"
+      />
+      <section className="pt-10 pb-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
         <SectionHeading
           badge="Common Questions"
           title="Frequently Asked Questions"

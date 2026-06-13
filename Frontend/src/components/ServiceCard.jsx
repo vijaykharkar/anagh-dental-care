@@ -26,7 +26,7 @@ export default function ServiceCard({ service, variant = "simple" }) {
             {service.description}
           </p>
           <Link
-            to="/services"
+            to={service.slug ? `/services/${service.slug}` : "/services"}
             className="flex items-center text-secondary text-sm font-semibold tracking-wide hover:translate-x-1 transition-transform"
           >
             Learn More
@@ -67,7 +67,7 @@ export default function ServiceCard({ service, variant = "simple" }) {
         {service.description}
       </p>
       <Link
-        to="/services"
+        to={service.slug ? `/services/${service.slug}` : "/services"}
         className="mt-4 flex items-center text-secondary text-sm font-semibold tracking-wide gap-2 hover:gap-3 transition-all"
       >
         Learn More

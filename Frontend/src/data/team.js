@@ -1,12 +1,13 @@
+import drSagarImg from "../assets/drsagar.jpeg";
+
 export const teamMembers = [
   {
     id: 1,
-    name: "Dr. Anagh",
+    name: "Dr. Sagar",
     role: "Lead Dentist & Prosthodontist",
     badge: "Founder",
     specialties: ["Implantology", "Aesthetics"],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCbqQE9ZDFmqzfoqG4IijtYuT-DcP_BAYbSB_9wJV1EDE5ihUYHmrE_ljGjjkZ950hAz_MAorMojawKl2CFQ4JzXieiicXSVPXLqCo5cEJ6fRX5LPoop4Ya-_XEEbLxjTTvCNPDB15xHx9wdrrpuqbgDe4tZNBsgAqNEche_6FwImTxEmvVHjM0b2fwSKZV7QMYnN4Xs6_Bk90-nAhxV3XqJyzbePEtYJSwXaAigysom5P5_suVFfHUgcZEEFAayvKILJ3AG-eVkefu",
+    image: drSagarImg,
   },
   {
     id: 2,

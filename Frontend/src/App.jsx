@@ -9,6 +9,7 @@ import Appointment from "./pages/Appointment";
 import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
 import FAQ from "./pages/FAQ";
+import ServiceDetail from "./pages/ServiceDetail";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/appointment" element={<Appointment />} />
             <Route path="/blog" element={<Blog />} />

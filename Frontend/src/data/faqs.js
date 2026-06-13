@@ -19,14 +19,14 @@ export const faqs = [
     category: "general",
     question: "What is the cost of a dental checkup?",
     answer:
-      "The cost of a routine dental checkup at Anagh Dental Care starts at $75, which includes a comprehensive oral examination and professional cleaning. Additional services like X-rays or fluoride treatments may incur separate charges. We accept most major insurance plans and also offer flexible payment options for uninsured patients. Contact our front desk for a personalized cost estimate based on your needs.",
+      "The cost of a routine dental checkup at Anagh Dental Care is very affordable and includes a comprehensive oral examination. Additional services like X-rays or special treatments may incur separate charges. We offer flexible payment options for all patients. Contact our front desk at +91 79727 19443 for a personalized cost estimate based on your needs.",
   },
   {
     id: 3,
     category: "general",
     question: "Do you offer emergency dental services?",
     answer:
-      "Absolutely. Anagh Dental Care provides 24/7 emergency dental support for urgent situations such as severe toothaches, knocked-out teeth, broken crowns, or dental trauma. Call our emergency line at +1 (555) SERENE-CARE, and our on-call team will guide you through immediate steps and schedule a priority appointment.",
+      "Absolutely. Anagh Dental Care provides emergency dental support for urgent situations such as severe toothaches, knocked-out teeth, broken crowns, or dental trauma. Call our emergency line at +91 79727 19443, and our on-call team will guide you through immediate steps and schedule a priority appointment.",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ export const faqs = [
     category: "appointments",
     question: "How do I book an appointment?",
     answer:
-      "You can book an appointment through our website's online booking system, by calling us at +1 (555) SERENE-CARE, or by visiting our clinic in person. Our online system provides real-time availability and instant confirmation. We also offer same-day appointments for urgent cases when slots are available.",
+      "You can book an appointment through our website's online booking system, by calling or WhatsApp-ing us at +91 79727 19443, or by visiting our clinic at Alpine Astonia Complex, Kiwale, Pimpri-Chinchwad. We also offer same-day appointments for urgent cases when slots are available.",
   },
   {
     id: 6,
@@ -103,6 +103,6 @@ export const faqs = [
     category: "aftercare",
     question: "What should I do if I have a dental emergency?",
     answer:
-      "Stay calm and call our emergency line immediately at +1 (555) SERENE-CARE. For a knocked-out tooth, place it back in its socket or keep it in milk. For severe pain, rinse with warm salt water and apply a cold compress. Our emergency team is available 24/7 to provide guidance and arrange immediate care.",
+      "Stay calm and call our emergency line immediately at +91 79727 19443. For a knocked-out tooth, place it back in its socket or keep it in milk. For severe pain, rinse with warm salt water and apply a cold compress. Our team will provide guidance and arrange immediate care as soon as possible.",
   },
 ];

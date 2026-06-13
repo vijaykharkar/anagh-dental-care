@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import { fadeInUp, fadeIn, buttonHover } from "../utils/animations";
 import { heroSlides } from "../data/services";
+import { siteConfig } from "../data/siteConfig";
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
@@ -17,7 +18,7 @@ export default function Hero() {
   }, [next]);
 
   return (
-    <section className="relative min-h-[90vh] lg:h-[870px] flex items-center overflow-hidden bg-primary">
+    <section className="relative min-h-[90vh] lg:h-[870px] flex items-center overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -75,7 +76,7 @@ export default function Hero() {
               </motion.button>
             </Link>
             <a
-              href="https://wa.me/919876543210?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment"
+              href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent("Hi, I'd like to book an appointment at Anagh Dental Care.")}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -90,7 +91,7 @@ export default function Hero() {
               </motion.button>
             </a>
             <a
-              href="https://www.google.com/maps/search/Anagh+Dental+Care"
+              href={siteConfig.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
             >

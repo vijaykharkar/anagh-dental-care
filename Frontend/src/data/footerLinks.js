@@ -16,9 +16,4 @@ export const footerColumns = [
       { label: "Privacy Policy", path: "#" },
     ],
   },
-  {
-    title: "Newsletter",
-    isNewsletter: true,
-    description: "Stay updated with the latest in dental health.",
-  },
 ];

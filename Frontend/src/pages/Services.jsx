@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
 import { Link } from "react-router-dom";
 import {
   pageTransition,
@@ -7,7 +8,7 @@ import {
   buttonHover,
 } from "../utils/animations";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
-import { allServices } from "../data/services";
+import { navServices } from "../data/services";
 import { siteConfig } from "../data/siteConfig";
 import ServiceCard from "../components/ServiceCard";
 
@@ -65,7 +66,7 @@ function ServicesGrid() {
         animate={isInView ? "visible" : "hidden"}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
       >
-        {allServices.map((service) => (
+        {navServices.map((service) => (
           <ServiceCard key={service.id} service={service} variant="image" />
         ))}
       </motion.div>
@@ -118,6 +119,12 @@ function ServicesCTA() {
 export default function Services() {
   return (
     <motion.div {...pageTransition}>
+      <SEO
+        title="Dental Services – Implants, Whitening, Root Canal & More"
+        description="Explore all dental services at Anagh Dental Care, Kiwale. Dental Implants, Teeth Whitening, Root Canal, Braces, Veneers, Smile Makeover, Composite Bonding, Pediatric Dentistry & more. Book: +91 79727 19443."
+        keywords="dental services Kiwale, dental implants Pimpri-Chinchwad, teeth whitening Pune, root canal Kiwale, braces Pune, smile makeover, veneers, composite bonding, pediatric dentistry, dental services near me"
+        canonical="/services"
+      />
       <ServicesHero />
       <EmergencyBanner />
       <ServicesGrid />
