@@ -13,6 +13,10 @@ export default function Navbar() {
   const location = useLocation();
   const dropdownRef = useRef(null);
 
+  // Highlights parent nav for nested routes (e.g. /services/root-canal → Services)
+  const isActive = (path) =>
+    path === "/" ? location.pathname === "/" : location.pathname.startsWith(path);
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
@@ -111,15 +115,15 @@ export default function Navbar() {
 
       {/* ── Main nav ── */}
       <nav className={`bg-white/95 backdrop-blur-sm border-b border-slate-100 transition-all duration-300 ${scrolled ? "shadow-sm" : ""}`}>
-        <div className="flex items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[80px]">
+        <div className="flex items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[68px] lg:h-[86px]">
 
           {/* Floating circular logo */}
           <Link
             to="/"
             aria-label={siteConfig.brandName}
-            className="relative top-[15px] z-20 shrink-0 mr-3"
+            className="relative top-0 lg:top-[18px] z-20 shrink-0 mr-3"
           >
-            <div className="w-[120px] h-[120px] rounded-full border-[3px] border-white shadow-xl overflow-hidden bg-white ring-2 ring-primary/15">
+            <div className="w-[62px] h-[62px] sm:w-[76px] sm:h-[76px] lg:w-[110px] lg:h-[110px] rounded-full border-[3px] border-white shadow-xl overflow-hidden bg-white ring-2 ring-primary/15">
               <img
                 src={logoImg}
                 alt={siteConfig.brandName}
@@ -146,7 +150,7 @@ export default function Navbar() {
                 <button
                   onClick={() => setServicesOpen(!servicesOpen)}
                   className={`flex items-center gap-1 text-sm font-heading tracking-wide transition-all duration-300 cursor-pointer ${
-                    location.pathname === link.path
+                    isActive(link.path)
                       ? "text-primary-container border-b-2 border-primary-container pb-1"
                       : "text-slate-500 font-medium hover:text-primary-container"
                   }`}
@@ -215,7 +219,7 @@ export default function Navbar() {
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-heading tracking-wide transition-all duration-300 ${
-                  location.pathname === link.path
+                  isActive(link.path)
                     ? "text-primary-container border-b-2 border-primary-container pb-1"
                     : "text-slate-500 font-medium hover:text-primary-container"
                 }`}
@@ -240,7 +244,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden flex flex-col justify-center items-center w-10 h-10 rounded-lg hover:bg-surface-container transition-colors"
+          className="lg:hidden flex flex-col justify-center items-center w-10 h-10 rounded-lg hover:bg-surface-container transition-colors ml-auto"
           aria-label="Toggle menu"
         >
           <span
@@ -278,7 +282,7 @@ export default function Navbar() {
                     <button
                       onClick={() => setServicesOpen(!servicesOpen)}
                       className={`w-full flex items-center justify-between px-4 py-3 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
-                        location.pathname === link.path
+                        isActive(link.path)
                           ? "bg-primary-container/10 text-primary-container"
                           : "text-slate-600 hover:bg-surface-container"
                       }`}
@@ -332,7 +336,7 @@ export default function Navbar() {
                     key={link.path}
                     to={link.path}
                     className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
-                      location.pathname === link.path
+                      isActive(link.path)
                         ? "bg-primary-container/10 text-primary-container"
                         : "text-slate-600 hover:bg-surface-container"
                     }`}

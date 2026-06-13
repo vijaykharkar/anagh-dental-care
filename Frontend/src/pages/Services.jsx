@@ -16,7 +16,7 @@ function ServicesHero() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
-    <section className="pt-28 pb-16 bg-surface-container-low">
+    <section className="pt-10 lg:pt-14 pb-16 bg-surface-container-low">
       <motion.div
         ref={ref}
         variants={fadeInUp}

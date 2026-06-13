@@ -10,7 +10,7 @@ export default function BlogDetail() {
   if (!post) {
     return (
       <motion.div {...pageTransition}>
-        <div className="pt-32 pb-20 text-center max-w-7xl mx-auto px-4">
+        <div className="pt-16 pb-20 text-center max-w-7xl mx-auto px-4">
           <h1 className="font-heading text-4xl font-semibold text-primary mb-4">
             Post Not Found
           </h1>

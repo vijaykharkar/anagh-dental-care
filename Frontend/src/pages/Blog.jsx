@@ -10,7 +10,7 @@ export default function Blog() {
 
   return (
     <motion.div {...pageTransition}>
-      <section className="pt-28 pb-16 lg:pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+      <section className="pt-10 lg:pt-14 pb-16 lg:pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
         <SectionHeading
           badge="Our Blog"
           title="Clinical Insights & Dental Health Tips"

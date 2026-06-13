@@ -76,7 +76,7 @@ export default function MainLayout() {
       <LogoSplash />
       <ScrollToTop />
       <Navbar />
-      <main className="flex-1 pt-[101px]">
+      <main className="flex-1 pt-[104px] lg:pt-[122px]">
         <Outlet />
       </main>
       <Footer />
