@@ -226,7 +226,7 @@ export default function Navbar() {
           )}
         </div>
 
-        <div className="hidden lg:block">
+        <div className="hidden lg:block ml-15">
           <Link to={ctaLink.path}>
             <motion.button
               whileHover={{ scale: 1.02 }}
