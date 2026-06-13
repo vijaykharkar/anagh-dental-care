@@ -111,9 +111,6 @@ export default function LogoSplash() {
                   playsInline
                   className="w-56 h-56 sm:w-72 sm:h-72 object-contain"
                 />
-                <p className="text-xs text-slate-300 tracking-widest uppercase">
-                  Tap anywhere to continue
-                </p>
               </motion.div>
             )}
           </AnimatePresence>
