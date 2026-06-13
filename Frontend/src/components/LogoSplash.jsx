@@ -16,6 +16,8 @@ export default function LogoSplash() {
     setVisible(false);
   };
 
+
+
   useEffect(() => {
     if (!visible) return;
     const t = setTimeout(() => setPhase("video"), 1800);
@@ -24,12 +26,20 @@ export default function LogoSplash() {
 
   useEffect(() => {
     if (!visible || phase !== "video") return;
+
     const video = videoRef.current;
     if (!video) return;
+
     const onEnd = () => dismiss();
+
     video.addEventListener("ended", onEnd);
+
     const t = setTimeout(dismiss, 5000);
-    return () => { video.removeEventListener("ended", onEnd); clearTimeout(t); };
+
+    return () => {
+      video.removeEventListener("ended", onEnd);
+      clearTimeout(t);
+    };
   }, [visible, phase]);
 
   return (
@@ -39,8 +49,7 @@ export default function LogoSplash() {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.7, ease: "easeInOut" }}
-          className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-white cursor-pointer"
-          onClick={dismiss}
+          className="fixed inset-0 z-[200] flex flex-col items-center justify-center bg-white"
         >
           <AnimatePresence mode="wait">
             {phase === "logo" ? (
