@@ -22,12 +22,12 @@ export const whyChooseUs = [
   },
 ];
 
-export const clinicStats = [
-  { id: 1, value: "15+", label: "Years of Excellence" },
-  { id: 2, value: "12k+", label: "Happy Patients" },
-  { id: 3, value: "98%", label: "Patient Satisfaction" },
-  { id: 4, value: "15", label: "Clinical Awards" },
-];
+// export const clinicStats = [
+//   { id: 1, value: "15+", label: "Years of Excellence" },
+//   { id: 2, value: "12k+", label: "Happy Patients" },
+//   { id: 3, value: "98%", label: "Patient Satisfaction" },
+//   { id: 4, value: "15", label: "Clinical Awards" },
+// ];
 
 export const technologyFeatures = [
   {
@@ -45,3 +45,4 @@ export const technologyFeatures = [
     icon: "💡",
   },
 ];
+

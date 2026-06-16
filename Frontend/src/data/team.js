@@ -4,7 +4,7 @@ export const teamMembers = [
   {
     id: 1,
     name: "Dr. Sagar",
-    role: "Lead Dentist & Prosthodontist",
+    role: "Lead Dentist & Dental Surgeon",
     badge: "Founder",
     specialties: ["Implantology", "Aesthetics"],
     image: drSagarImg,

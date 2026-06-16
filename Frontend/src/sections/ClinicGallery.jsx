@@ -22,7 +22,7 @@ const galleryItems = [
   {
     id: 1,
     src: drSagarImg,
-    alt: "Dr. Sagar – Lead Dentist & Prosthodontist",
+    alt: "Dr. Sagar – Lead Dentist & Dental Surgeon",
     caption: "Dr. Sagar",
     featured: true,
     span: "col-span-1 row-span-2",

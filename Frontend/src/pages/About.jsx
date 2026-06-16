@@ -140,8 +140,7 @@ function DoctorSection() {
 
           <div className="space-y-4 text-on-surface-variant leading-relaxed">
             <p>
-              With over 15 years of experience in advanced prosthodontics and
-              implantology, Dr. Anagh has dedicated his career to transforming
+              With over 7 years of experience in advanced Lead Dentist & Dental Surgeon, Dr. Anagh has dedicated his career to transforming
               smiles and restoring confidence. His patient-first philosophy
               ensures every treatment is tailored to individual needs.
             </p>
@@ -164,20 +163,17 @@ function DoctorSection() {
             ))}
           </div>
 
-          <div className="grid grid-cols-3 gap-4 pt-6 border-t border-slate-100">
+          {/* <div className="grid grid-cols-3 gap-4 pt-6 border-t border-slate-100">
             <div className="text-center">
-              <p className="text-2xl font-bold text-primary">15+</p>
+              <p className="text-2xl font-bold text-primary">7+</p>
               <p className="text-xs text-on-surface-variant">Years Experience</p>
             </div>
             <div className="text-center">
               <p className="text-2xl font-bold text-primary">12k+</p>
               <p className="text-xs text-on-surface-variant">Happy Patients</p>
             </div>
-            <div className="text-center">
-              <p className="text-2xl font-bold text-primary">98%</p>
-              <p className="text-xs text-on-surface-variant">Satisfaction Rate</p>
-            </div>
-          </div>
+            
+          </div> */}
 
           <Link to="/appointment">
             <motion.button
