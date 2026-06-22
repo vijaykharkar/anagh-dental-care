@@ -14,8 +14,8 @@ export default function Home() {
     <motion.div {...pageTransition}>
       <SEO
         title="Best Dental Clinic in Kiwale, Pimpri-Chinchwad Pune"
-        description="Anagh Dental Care – Top-rated dental clinic in Kiwale, Pimpri-Chinchwad. Expert dentist Dr. Sagar offers Dental Implants, Teeth Whitening, Root Canal, Braces, Smile Makeover & more. Call: +91 79727 19443."
-        keywords="Anagh Dental Care, dental clinic Kiwale, best dentist Pimpri-Chinchwad, dental implants Pune, teeth whitening, root canal treatment Pune, braces Kiwale, smile makeover, dentist near me"
+        description="Anagh Dental Care – Top-rated dental clinic in Kiwale, Pimpri-Chinchwad. Expert dentist Dr. Sagar offers Dental Implants, Teeth Whitening, Root Canal, Braces, Smile Designing & more. Call: +91 79727 19443."
+        keywords="Anagh Dental Care, dental clinic Kiwale, best dentist Pimpri-Chinchwad, dental implants Pune, teeth whitening, root canal treatment Pune, braces Kiwale, Smile Designing, dentist near me"
         canonical="/"
       />
       <Hero />

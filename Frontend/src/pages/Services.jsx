@@ -121,8 +121,8 @@ export default function Services() {
     <motion.div {...pageTransition}>
       <SEO
         title="Dental Services – Implants, Whitening, Root Canal & More"
-        description="Explore all dental services at Anagh Dental Care, Kiwale. Dental Implants, Teeth Whitening, Root Canal, Braces, Veneers, Smile Makeover, Composite Bonding, Pediatric Dentistry & more. Book: +91 79727 19443."
-        keywords="dental services Kiwale, dental implants Pimpri-Chinchwad, teeth whitening Pune, root canal Kiwale, braces Pune, smile makeover, veneers, composite bonding, pediatric dentistry, dental services near me"
+        description="Explore all dental services at Anagh Dental Care, Kiwale. Dental Implants, Teeth Whitening, Root Canal, Braces, Veneers, Smile Designing, Exodontia/Wisdom tooth Extration, Pediatric Dentistry & more. Book: +91 79727 19443."
+        keywords="dental services Kiwale, dental implants Pimpri-Chinchwad, teeth whitening Pune, root canal Kiwale, braces Pune, Smile Designing, veneers, Exodontia/Wisdom tooth Extration, pediatric dentistry, dental services near me"
         canonical="/services"
       />
       <ServicesHero />

@@ -86,7 +86,7 @@ export const blogPosts = [
     description:
       "Cut through the noise and discover what really works for teeth whitening, what's safe, and what you should absolutely avoid.",
     content: `
-      <p>Teeth whitening is one of the most popular cosmetic dental procedures, yet it's surrounded by misconceptions. Let's separate the myths from the science-backed facts.</p>
+      <p>Oral hygiene maintenance is one of the most popular cosmetic dental procedures, yet it's surrounded by misconceptions. Let's separate the myths from the science-backed facts.</p>
 
       <h2>Myth: Whitening Damages Your Enamel</h2>
       <p><strong>Fact:</strong> When performed by a professional or using dentist-approved products, teeth whitening is safe and does not damage enamel. The key is using the right concentration of bleaching agents for the appropriate duration.</p>
@@ -110,7 +110,7 @@ export const blogPosts = [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBudb-pJhxzte-_odwqPlyZ0hHbzhrfGmn_8ToJ3EB45eSiNL4FbY-a_jcCNcmdSQFkw-maMpUcnwUUfQJ79opL4a8nlGCdhPsY1oRQyxOMOCnhFbBPHcmVTY-d73WK1wPOiOeD7Hc4Umcl6QYlBRn6U2Csg6BWstrNlpC3xzTwVzHLHAaniKWEMft3ltqsfYsXFkHSlqocyaTlUAjIbCVpg4waTXFV_c_8K-KcK1csG15P3dTm8iz2-YRgNOMAHw3YRvRM9MG49PGd",
     author: "Dr. James Wilson",
     date: "2024-09-10",
-    category: "Cosmetic Dentistry",
+    category: "Exodontia/Wisdom tooth Extration",
     readTime: "7 min read",
   },
   {

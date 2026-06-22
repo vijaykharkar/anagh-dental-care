@@ -15,7 +15,7 @@ const localBusinessSchema = {
   image: "https://anaghdentalcare.com/logo.jpeg",
   logo: "https://anaghdentalcare.com/logo.jpeg",
   description:
-    "Expert dental clinic in Kiwale, Pimpri-Chinchwad, Pune. Services include Dental Implants, Teeth Whitening, Root Canal, Braces, Smile Makeover, Veneers & more.",
+    "Expert dental clinic in Kiwale, Pimpri-Chinchwad, Pune. Services include Dental Implants, Teeth Whitening, Root Canal, Braces, Smile Designing, Veneers & more.",
   url: "https://anaghdentalcare.com",
   telephone: "+917972719443",
   email: "anaghdentalcare@gmail.com",

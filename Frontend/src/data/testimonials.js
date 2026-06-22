@@ -46,11 +46,11 @@ export const testimonials = [
   {
     id: 5,
     quote:
-      "Outstanding dental care! Dr. Sagar performed my full smile makeover and the results exceeded all my expectations. The staff is warm, the clinic is modern, and the appointment system is very convenient. Worth every rupee!",
+      "Outstanding dental care! Dr. Sagar performed my full Smile Designing and the results exceeded all my expectations. The staff is warm, the clinic is modern, and the appointment system is very convenient. Worth every rupee!",
     name: "Amit Sharma",
     role: "Wakad, Pune",
     stars: 5,
-    treatment: "Smile Makeover",
+    treatment: "Smile Designing",
     initials: "AS",
     color: "bg-amber-500",
   },

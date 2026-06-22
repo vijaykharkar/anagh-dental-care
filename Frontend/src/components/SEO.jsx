@@ -4,7 +4,7 @@ const SITE_URL = "https://anaghdentalcare.com";
 const BRAND = "Anagh Dental Care";
 const DEFAULT_TITLE = `${BRAND} | Best Dental Clinic in Kiwale, Pimpri-Chinchwad Pune`;
 const DEFAULT_DESC =
-  "Anagh Dental Care – Expert dental clinic in Kiwale, Pimpri-Chinchwad, Pune. Services: Dental Implants, Teeth Whitening, Root Canal, Braces, Smile Makeover & more. Dr. Sagar. Call: +91 79727 19443.";
+  "Anagh Dental Care – Expert dental clinic in Kiwale, Pimpri-Chinchwad, Pune. Services: Dental Implants, Teeth Whitening, Root Canal, Braces, Smile Designing & more. Dr. Sagar. Call: +91 79727 19443.";
 const DEFAULT_KW =
   "Anagh Dental Care, dental clinic Kiwale, dentist Pimpri-Chinchwad, dental clinic Pune, dental implants Pune, teeth whitening Kiwale, root canal Pimpri-Chinchwad, braces Pune, Dr Sagar dentist, best dentist near me, dental clinic near me";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;

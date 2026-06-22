@@ -15,7 +15,7 @@ export const featuredServices = [
   },
   {
     id: 2,
-    title: "Cosmetic Dentistry",
+    title: "Exodontia/Wisdom tooth Extration",
     description:
       "Advanced aesthetic treatments to enhance your natural beauty and boost your confidence.",
     icon: "✨",
@@ -54,7 +54,7 @@ export const navServices = [
     id: 2,
     title: "Teeth Whitening",
     slug: "teeth-whitening",
-    category: "Cosmetic Dentistry",
+    category: "Exodontia/Wisdom tooth Extration",
     icon: "✨",
     description: "Brighten your smile with our professional whitening systems, delivering dramatic results in a single boutique session.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB_8PwsSsy5M-uhr15FS_cH7Xz2HovVf7Qk5zkwLJd5DpbxCKBIdlb0jdLzifCOXk7mm-FL5LZRz3CF6MeZlpfOTIrgOD7l01yZ333l7BthrlKn4Yhta6myZMcVlJgwdP7KB5zUh-epFqPKU9AM-gI7CzDaFXtDeih9EGxHz_x2ka3KCtVfhgnoqChz_h3CZ7MlwnLjjSlXEwt97wB0xgqCJYBqQxvUZQqh5s4qj51bj5TU2z4KGH6S2kgBrrYLc5meXtKFRZbDmKj0",
@@ -84,14 +84,14 @@ export const navServices = [
   },
   {
     id: 4,
-    title: "Smile Makeover",
+    title: "Smile Designing",
     slug: "smile-makeover",
-    category: "Cosmetic Dentistry",
+    category: "Exodontia/Wisdom tooth Extration",
     icon: "😊",
     description: "A comprehensive, personalized treatment plan combining multiple procedures to completely transform your smile.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAzxzorHwqKHoRpTcMc_XKRxbDDlTZkTCYEeiD4gIZrg3N-cbRdiU2AtYFXTY9iBbs2PgVlulpdvaky8QNNfyKWxo3FTmq0O9OkKeT2XrhGnGngBhxlseme3S5F4hkwa6pAL0cxydUeLqJjSUChLN1w843JdVec-CRVQRSh4disH-H69tBZHE6Yi3ol4vwvlfcTTI8bckT3AIILPKVlCxFe2hD4DO-X7zwr-3fbYA3vdJ-_fkyXuhUfsacdYrcxAG9H49zpU9ztwWv9",
     details: {
-      overview: "A smile makeover is a fully customized treatment plan that may include whitening, veneers, bonding, implants, and orthodontics — all coordinated to achieve your dream smile.",
+      overview: "A Smile Designing is a fully customized treatment plan that may include whitening, veneers, bonding, implants, and orthodontics — all coordinated to achieve your dream smile.",
       benefits: ["Completely personalized treatment plan", "Digital smile design preview before treatment", "Addresses multiple concerns in one plan", "Dramatic, life-changing results", "Coordinated by specialist team"],
       procedure: ["Comprehensive oral assessment", "Digital smile design and preview", "Customized treatment roadmap", "Staged treatment execution", "Final refinement and maintenance plan"],
       duration: "Varies by plan — typically 2-6 months",
@@ -116,14 +116,14 @@ export const navServices = [
   },
   {
     id: 6,
-    title: "Composite Bonding",
+    title: "Exodontia/Wisdom tooth Extration",
     slug: "composite-bonding",
-    category: "Cosmetic Dentistry",
+    category: "Exodontia/Wisdom tooth Extration",
     icon: "🪥",
     description: "A quick, affordable cosmetic solution to repair chipped, cracked, or discolored teeth in a single visit.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDhVNaPOIIWeFMSYKl_71iD7Cz9Z0awylxMgrMQX5ov51cwPoVTz1oJycArAUP-loghTgPXRvoQzkbAc88OA4J8K-ZmRzeaGp4usZySdCpIPsdhBOKWD2lvHKYEv56UKUI19voO6vg16uS1Ucmzn8_XsEMmYa0jo0ndvETWXCJtBBhBrxhO7ruRYcGNnPGPjGHaN4i-27r0L-s8kVy4tVc0oA3RmIJKh8PqJT7FpV13FGsDrt1xjen8e5sJIKzWLyWB6ei3XbMNznQL",
     details: {
-      overview: "Composite bonding uses tooth-colored resin material to repair chips, cracks, gaps, and discoloration. It's one of the most affordable and least invasive cosmetic dental procedures.",
+      overview: "Exodontia/Wisdom tooth Extration uses tooth-colored resin material to repair chips, cracks, gaps, and discoloration. It's one of the most affordable and least invasive cosmetic dental procedures.",
       benefits: ["Completed in a single visit", "Minimal tooth preparation needed", "Natural-looking results", "Cost-effective cosmetic solution", "Reversible procedure"],
       procedure: ["Shade matching to your natural teeth", "Surface preparation (etching)", "Composite resin application and sculpting", "UV light curing", "Final shaping and polishing"],
       duration: "Single visit, 30-60 minutes per tooth",
@@ -166,7 +166,7 @@ export const navServices = [
     id: 9,
     title: "Pediatric Dentistry",
     slug: "pediatric-dentistry",
-    category: "General Dentistry",
+    category: "Children's Oral Health Maintenance",
     icon: "👶",
     description: "Fun, gentle, and educational dental visits designed to build a lifetime of healthy smiles for your children.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDQ2T3BGaduJiQrt2O6vI8iPeIiJrhf172IFJmKp7Sof4o-cBwLYzLVWba2YGcJo0s68aJ8hFrZmppNCXnSX8HKNPvTxpRnUQmkqrl9cBvUWMXz8KCzwX6mihICJkkQtGAjrAAVGy9ZYv8sqGojeTBrnj6TCRGzipZzAJuA64CMX47QflmWWJJtHLHYf5Z9zR6Y_MWgO6T-gUwPmJHXYrDpN3qeC3QLoBs7AcM1Lah1NAfYgmgFIBtK4F1GAM45j2srSE7_CI8lFFAY",
@@ -276,7 +276,7 @@ export const serviceOptions = [
   "Teeth Whitening",
   "Orthodontic Braces",
   "Root Canal Treatment",
-  "Cosmetic Dentistry",
+  "Exodontia/Wisdom tooth Extration",
 ];
 
 export const timeSlots = [
